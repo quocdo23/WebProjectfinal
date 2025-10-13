@@ -499,3 +499,86 @@ input[type="email"] {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(33, 150, 243, 0.4);
 }
+#hidden_pix_15 {
+  display: none;
+}
+#section_party_4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 60px;
+  background-color: #151515;
+}
+#section_party_4 .alpha {
+  padding-top: 24px;
+  width: 50%;
+  float: left;
+}
+#section_party_4 .omega {
+  padding-top: 15px;
+  text-align: right;
+  float: right;
+}
+
+.socbuttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.likes_st {
+  order: 1;
+  flex-shrink: 0;
+}
+
+.soc_icons {
+  order: 2;
+}
+
+.likes_st {
+  font-size: 1em;
+  color: #666;
+}
+.rights_st {
+  font-size: 1em;
+  color: #666;
+}
+.pixfort_st {
+  color: #1976d2;
+}
+
+.bottom-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.bottom-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 18px;
+}
+
+.pixicon-facebook2::before {
+  content: "f";
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.pixicon-twitter2::before {
+  content: "𝕏";
+  font-family: sans-serif;
+}
+
+.pixicon-instagram::before {
+  content: "🅾";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
