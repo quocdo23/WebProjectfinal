@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  height: 48px;
+  border-bottom: solid 2px #8b0000;
+  border-left: solid 5px #8b0000;
+}
+
+.menu .menu_item {
+  float: left;
+  width: fit-content;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.menu .menu_item:hover {
+  background-color: #8b0000;
+  color: white;
+}
+.menu_item .sub-menu {
+  display: none;
+}
+.menu_item:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 56px;
+  background-color: #eeeeee;
+  border-top: solid 2px #8b0000;
+  margin-left: -15px;
+}
+.menu_item:hover .sub-menu .sub {
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  border-bottom: 2px solid #bfbfbf;
+}
+.menu_item:hover .sub-menu .sub:hover {
+  background-color: #8b0000;
+  color: white;
+}
