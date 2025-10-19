@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://imgs.699pic.com/images/601/611/603.jpg!seo.v1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+form {
+  min-width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.input-box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+.input-box input {
+  padding: 15px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-sign {
+  width: 100px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #bd59d7;
+  color: #ffffff;
+  border: none;
+  box-shadow: 4px 2px 8px #bd59d7;
+  cursor: pointer;
+}
+h6 {
+  color: #cacaca;
+  font-size: 15px;
+}
+.social-login .social-button {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+}
+.social-login {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.sign_up_down {
+  padding: 25px;
+  color: #725e75;
+  cursor: pointer;
+}
