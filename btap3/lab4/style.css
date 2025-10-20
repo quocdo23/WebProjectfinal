@@ -1,0 +1,161 @@
+body {
+  background-color: #d9d9d9;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+form {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 360px;
+  padding: 40px;
+}
+h4 {
+  margin: 20px 0px;
+  color: #7ed321;
+}
+
+.input-box {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+}
+.input-box i {
+  border-right: solid 1px black;
+  padding-right: 10px;
+  padding: 5px 10px 5px 3px;
+  color: #b9b9b9;
+}
+.input-box input {
+  background-color: #f9f9f9;
+  border: none;
+  width: 85%;
+  font-size: 15px;
+  outline: none;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.date-input {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.date-input input {
+  width: 40px;
+  height: 35px;
+  background-color: #f9f9f9;
+  border: solid 1px #0f0e0e;
+  border-radius: 5px;
+}
+.btn-gender {
+  display: flex;
+}
+
+.btn-gender input {
+  display: none;
+}
+
+.btn-gender label {
+  padding: 5px;
+  width: 80px;
+  height: 25px;
+  color: #0f0e0e;
+  border: 1px solid #0f0e0e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #7ed321;
+  transform: scale(1.05);
+  color: white;
+}
+
+.up-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box-l {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #7ed321;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #0f0e0e;
+}
+.box-r {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f9f9f9;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #0f0e0e;
+}
+.box-r a {
+  text-decoration: none;
+  color: black;
+}
+.box-l a {
+  text-decoration: none;
+  color: white;
+}
+.form-upPay {
+  display: flex;
+  justify-content: space-between;
+}
+.input-box-pay {
+  display: flex;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  width: 40%;
+}
+.input-box-pay i {
+  border-right: solid 1px black;
+  padding-right: 10px;
+  padding: 0px 10px 0px 3px;
+  color: #b9b9b9;
+}
+.input-box-pay input {
+  outline: none;
+  border: none;
+  background-color: #f9f9f9;
+  width: 90%;
+}
+.upPay_r {
+  padding-top: 20px;
+}
+#date {
+  padding: 11px;
+  padding-right: 25px;
+  border-radius: 5px;
+}
+
+.check {
+  display: flex;
+  align-items: baseline;
+}
+.check input {
+  accent-color: #7ed321;
+}
+h5 {
+  margin: 0;
+  font-size: 12px;
+  color: #b9b9b9;
+}
